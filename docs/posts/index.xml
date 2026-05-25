@@ -6,6 +6,20 @@
     <description>Recent content in Posts on The Akshat Protocol</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 25 May 2026 11:55:09 +0530</lastBuildDate>
     <atom:link href="https://akshatbhatt-1.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Akshat Protocol</title>
+      <link>https://akshatbhatt-1.github.io/posts/my-first-post/</link>
+      <pubDate>Mon, 25 May 2026 11:55:09 +0530</pubDate>
+      <guid>https://akshatbhatt-1.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hey! This is my first post.&lt;/p&gt;
+&lt;p&gt;The Akshat Protocol&lt;/p&gt;
+&lt;p&gt;From Imagination to Intelligent Systems.&lt;/p&gt;
+&lt;p&gt;Building AI-powered systems through code, automation, and engineering.
+Exploring machine intelligence, smart infrastructure, computer vision, and futuristic technology — one project at a time.&lt;/p&gt;
+&lt;p&gt;Not just creating projects.
+Creating systems with purpose.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

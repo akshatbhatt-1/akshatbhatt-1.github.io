@@ -1,6 +1,6 @@
 +++
 date = '2026-05-25T11:55:09+05:30'
-draft = true
+draft = false
 title = 'The Akshat Protocol'
 +++
 Hey! This is my first post.
