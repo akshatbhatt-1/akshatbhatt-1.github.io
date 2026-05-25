@@ -1,3 +1,4 @@
+publishDir = "docs"
 baseURL = 'https://akshatbhatt-1.github.io/'
 locale = 'en-us'
 title = 'The Akshat Protocol'
@@ -10,13 +11,12 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  profileMode = true
 
   [params.profileMode]
     enabled = true
-    title = "Hey, I'm Aksh."
+    title = "Hey, I'm Akshat."
     subtitle = "From Imagination to Execution."
-    imageUrl = "images/avatar.jpg"   # add your photo here later
+    imageUrl = "images/avatar.jpg"
 
   [[params.socialIcons]]
     name = "github"
