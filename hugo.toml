@@ -16,10 +16,11 @@ enableRobotsTXT = true
   ShowToc = true
   defaultTheme = "dark"
   disableThemeToggle = false
-
+  [params.assets]
+    disableFingerprinting = true
   [params.profileMode]
     enabled = true
-    title = "Hey, I'm Akshat. 👋"
+    title = "Hey, I'm Akshat."
     subtitle = "Developer · Builder · Tinkerer — From Imagination to Execution."
     imageUrl = "images/avatar.jpg"
     imageWidth = 120
