@@ -32,5 +32,17 @@ Creating systems with purpose.&lt;/p&gt;</description>
 &lt;p&gt;I am Akshat Bhatt, an AI developer and technology enthusiast passionate about building intelligent systems that combine software, hardware, and automation to solve real-world problems.&lt;/p&gt;
 &lt;p&gt;What started as curiosity through science experiments, electronics, coding, and problem-solving gradually evolved into developing complete working systems powered by AI, Machine Learning, Computer Vision, and IoT integration.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Projects</title>
+      <link>https://akshatbhatt-1.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://akshatbhatt-1.github.io/projects/</guid>
+      <description>&lt;h2 id=&#34;what-im-building&#34;&gt;What I&amp;rsquo;m Building&lt;/h2&gt;
+&lt;h3 id=&#34;-temperature--humidity-monitor&#34;&gt;🌡️ Temperature &amp;amp; Humidity Monitor&lt;/h3&gt;
+&lt;p&gt;A real-time IoT sensor dashboard built with Arduino and a web interface.&lt;/p&gt;
+&lt;h3 id=&#34;-this-blog&#34;&gt;🌐 This Blog&lt;/h3&gt;
+&lt;p&gt;Built with Hugo + PaperMod, hosted free on GitHub Pages.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;More coming soon&amp;hellip;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

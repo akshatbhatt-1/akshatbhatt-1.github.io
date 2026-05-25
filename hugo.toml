@@ -3,20 +3,36 @@ baseURL = 'https://akshatbhatt-1.github.io/'
 locale = 'en-us'
 title = 'The Akshat Protocol'
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 [params]
   author = "Akshat Bhatt"
-  description = "My ideas, projects and experiments"
+  description = "From Imagination to Execution."
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowToc = true
+  defaultTheme = "dark"
+  disableThemeToggle = false
 
   [params.profileMode]
     enabled = true
-    title = "Hey, I'm Akshat."
-    subtitle = "From Imagination to Execution."
+    title = "Hey, I'm Akshat. 👋"
+    subtitle = "Developer · Builder · Tinkerer — From Imagination to Execution."
     imageUrl = "images/avatar.jpg"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Akshat Bhatt"
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/posts"
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects"
 
   [[params.socialIcons]]
     name = "github"
@@ -26,12 +42,35 @@ theme = 'PaperMod'
     name = "linkedin"
     url = "https://linkedin.com/in/akshat-bhatt-560394300"
 
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:akshatbhatt024@gmail.com"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
 [menu]
   [[menu.main]]
     name = "Blog"
     url = "/posts/"
     weight = 1
   [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 2
+    weight = 3
+  [[menu.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 4
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

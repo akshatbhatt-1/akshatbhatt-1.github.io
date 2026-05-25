@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+code, pre {
+  font-family: var(--font-mono);
+}
+
+/* Dark mode custom colors */
+.dark {
+  --theme: #0d1117;
+  --entry: #161b22;
+  --primary: #e6edf3;
+  --secondary: #8b949e;
+  --border: #30363d;
+  --code-bg: #161b22;
+  --header-bg: rgba(13, 17, 23, 0.95);
+}
+
+/* Accent color - electric blue */
+.dark a {
+  color: #58a6ff;
+}
+
+.dark a:hover {
+  color: #79c0ff;
+}
+
+/* Post cards */
+.dark .post-entry {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.dark .post-entry:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+}
+
+/* Profile section */
+.profile img {
+  border-radius: 50%;
+  border: 3px solid #58a6ff;
+}
+
+/* Buttons */
+.button {
+  border: 1px solid #58a6ff !important;
+  border-radius: 8px !important;
+  color: #58a6ff !important;
+  transition: all 0.2s !important;
+}
+
+.button:hover {
+  background: #58a6ff !important;
+  color: #0d1117 !important;
+}
+
+/* Header */
+header {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Bigger profile title */
+.profile-mode .profile h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
